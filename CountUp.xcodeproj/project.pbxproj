@@ -10,10 +10,10 @@
 		6EA83F412D04888B00E58305 /* CountUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA83F402D04888B00E58305 /* CountUpApp.swift */; };
 		6EA83F432D04888B00E58305 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA83F422D04888B00E58305 /* ContentView.swift */; };
 		6EA83F452D04888F00E58305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA83F442D04888F00E58305 /* Assets.xcassets */; };
-		6EA83F482D04888F00E58305 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA83F472D04888F00E58305 /* Preview Assets.xcassets */; };
 		6EA83F522D04888F00E58305 /* CountUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA83F512D04888F00E58305 /* CountUpTests.swift */; };
 		6EA83F5C2D04888F00E58305 /* CountUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA83F5B2D04888F00E58305 /* CountUpUITests.swift */; };
 		6EA83F5E2D04888F00E58305 /* CountUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA83F5D2D04888F00E58305 /* CountUpUITestsLaunchTests.swift */; };
+		6EA83F6B2D0489E400E58305 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA83F6A2D0489E300E58305 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +38,12 @@
 		6EA83F402D04888B00E58305 /* CountUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpApp.swift; sourceTree = "<group>"; };
 		6EA83F422D04888B00E58305 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6EA83F442D04888F00E58305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6EA83F472D04888F00E58305 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6EA83F4D2D04888F00E58305 /* CountUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA83F512D04888F00E58305 /* CountUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpTests.swift; sourceTree = "<group>"; };
 		6EA83F572D04888F00E58305 /* CountUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA83F5B2D04888F00E58305 /* CountUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpUITests.swift; sourceTree = "<group>"; };
 		6EA83F5D2D04888F00E58305 /* CountUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EA83F6A2D0489E300E58305 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,18 +96,10 @@
 			children = (
 				6EA83F402D04888B00E58305 /* CountUpApp.swift */,
 				6EA83F422D04888B00E58305 /* ContentView.swift */,
+				6EA83F6A2D0489E300E58305 /* DetailView.swift */,
 				6EA83F442D04888F00E58305 /* Assets.xcassets */,
-				6EA83F462D04888F00E58305 /* Preview Content */,
 			);
 			path = CountUp;
-			sourceTree = "<group>";
-		};
-		6EA83F462D04888F00E58305 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				6EA83F472D04888F00E58305 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		6EA83F502D04888F00E58305 /* CountUpTests */ = {
@@ -231,7 +223,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA83F482D04888F00E58305 /* Preview Assets.xcassets in Resources */,
 				6EA83F452D04888F00E58305 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EA83F432D04888B00E58305 /* ContentView.swift in Sources */,
+				6EA83F6B2D0489E400E58305 /* DetailView.swift in Sources */,
 				6EA83F412D04888B00E58305 /* CountUpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
